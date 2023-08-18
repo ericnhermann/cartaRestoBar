@@ -37,6 +37,11 @@ body {
     float: right;
     font-weight: bold;
   }
+
+  .responsive {
+    width: 50%;
+    height: auto;
+  }
   
   /* Agrega más estilos personalizados aquí */
   
