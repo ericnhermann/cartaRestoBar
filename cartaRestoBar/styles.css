@@ -42,6 +42,20 @@ body {
     width: 50%;
     height: auto;
   }
+
+  #footer{
+    padding: 20px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+  #footer a {
+    color: lightgrey;
+    font-size: 25px;
+  }
+  
+  #footer a:hover {
+    color: white;
+  }
   
   /* Agrega más estilos personalizados aquí */
   
