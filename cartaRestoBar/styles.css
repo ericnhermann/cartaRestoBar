@@ -11,13 +11,18 @@ body {
     color: #ead6d6;
     padding: 1rem;
   }
+
+  .TituloResto{
+    text-align: center;
+  }
   
   nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
+    justify-content: center;
   }
   
   nav a {
@@ -58,16 +63,16 @@ body {
 
   #footer{
     padding: 20px;
-    background: rgb(30, 30, 30);
-    color: lightgrey;
+    background: #f61717
   }
+
   #footer a {
     color: lightgrey;
     font-size: 25px;
   }
   
   #footer a:hover {
-    color: white;
+    color: #000000;
   }
   
   /* Agrega más estilos personalizados aquí */
