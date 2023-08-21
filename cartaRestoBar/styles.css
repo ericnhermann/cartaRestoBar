@@ -40,6 +40,14 @@ body {
     
   }
   
+  #Subtitle{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+  }
   
   .menu-section {
     margin: 40px 0;
