@@ -6,8 +6,9 @@ body {
   }
   
   header {
+    font-family: 'DM Sans', sans-serif;
     background-color: #f61717;
-    color: white;
+    color: #ead6d6;
     padding: 1rem;
   }
   
@@ -21,8 +22,17 @@ body {
   
   nav a {
     text-decoration: none;
-    color: white;
+    color: #ead6d6;
   }
+
+  .boton {
+    border: 5px solid rgb(247, 85, 85);
+    border-radius: 20px;
+    box-shadow: 
+      -2px -2px 5px rgb(237, 127, 127),
+      2px 2px 5px rgba(247, 85, 85, 0.986);
+  }
+  
   
   .menu-section {
     margin: 40px 0;
