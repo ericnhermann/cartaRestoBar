@@ -1,6 +1,6 @@
 body {
     background-image: url(https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    font-family: Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin: 0;
     padding: 1;
   }
@@ -62,17 +62,27 @@ body {
   }
 
   #footer{
-    padding: 20px;
-    background: #f61717
+    font-family: 'DM Sans', sans-serif;
+    color:#ead6d6;
+    padding: 2px;
+    background: #f61717;
   }
 
+  .social-buttons {
+    position: static;
+    margin-left: -40px;
+  }
+ 
+  
+  
+
   #footer a {
-    color: lightgrey;
+    color: #ead6d6;
     font-size: 25px;
   }
   
   #footer a:hover {
-    color: #000000;
+    color: #f61717;
   }
   
   /* Agrega más estilos personalizados aquí */
