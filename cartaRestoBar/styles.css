@@ -158,20 +158,20 @@ nav a:hover {
   display: flex;
   padding: 0px;
   justify-content: center;
-  transform: translateY(-320px);
+  transform: translateY(-400px);
 }
 
 .paragraph4 {
   display: flex;
   padding: 0px;
   justify-content: center;
-  transform: translateY(-300px);
+  transform: translateY(-415px);
 }
 
 .paragraph5 {
   display: flex;
   padding: 0px;
   justify-content: center;
-  transform: translateY(+40px);
+  transform: translateY(-360px);
 }
 /* esto hay que cambiar para arreglar lo de las columnas*/
