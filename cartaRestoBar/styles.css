@@ -158,7 +158,6 @@ nav a:hover {
 .paragraph3 {
   display: flex;
   padding: 0px;
-  margin: 10px;
   justify-content: center;
   transform: translateY(-400px);
 }
@@ -166,16 +165,16 @@ nav a:hover {
 .paragraph4 {
   display: flex;
   padding: 0px;
-  margin: 10px;
   justify-content: center;
+  margin-right: 30px;
   transform: translateY(-415px);
 }
 
 .paragraph5 {
   display: flex;
   padding: 0px;
-  margin: 10px;
   justify-content: center;
+  margin-right: 20px;
   transform: translateY(-360px);
 }
 /* esto hay que cambiar para arreglar lo de las columnas*/
