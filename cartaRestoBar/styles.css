@@ -6,6 +6,8 @@ body {
 }
 
 
+
+
 header, #TituloResto {
   font-family: 'DM Sans', sans-serif;
   background-color: #f61717;
@@ -35,6 +37,8 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+
+
 .boton {
   border: 5px solid rgb(247, 85, 85);
   border-radius: 20px;
@@ -44,6 +48,7 @@ nav a:hover {
   background-color: rgb(247, 80, 80);
 }
 
+
 #Subtitle {
   margin: 0 50px;
   text-align: center;
@@ -52,43 +57,50 @@ nav a:hover {
 
 
 .menu-section {
-  margin: 40px 0;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .menu-item {
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
-  flex: 1; 
-  max-width: calc(33.33% - 20px); 
+  flex: 1;
+  max-width: calc(25% - 20px);
   box-sizing: border-box;
+  margin: 20px 0;
+  position: relative;
+
 }
 
-.menu-items-container {
-  display: flex;
+.menu-item-container {
+  display: inline-block;
   flex-wrap: wrap;
-  justify-content: space-between; 
-  gap: 20px; 
+
 }
 
 .menu-item .price {
   display: block;
+  position: relative;
 }
 
 .price {
   font-weight: bold;
   background-color: #ff9800;
   padding: 5px 10px;
-  width: fit-content; 
+  width: fit-content;
   text-align: right;
   margin-top: 10px;
   margin-left: auto;
+  position: relative;
 }
 
 
 
 .responsive {
-  width: 50%;
+  width: 80%;
   height: auto;
 }
 
@@ -111,7 +123,7 @@ nav a:hover {
 }
 
 #footer a:hover {
-  color: #f61717;
+  transform: scale(1.05);
 }
 
 .imgBorder {
