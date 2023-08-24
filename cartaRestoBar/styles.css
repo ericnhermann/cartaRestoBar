@@ -5,6 +5,10 @@ body {
   padding: 1;
 }
 
+#bloc1, #bloc2 {
+    display: inline-block;
+}
+
 header, #TituloResto {
   font-family: 'DM Sans', sans-serif;
   background-color: #f61717;
