@@ -4,10 +4,7 @@ body {
   margin: 0;
   padding: 1;
 }
-/*prueba crear bloques */
-#bloc1, #bloc2 {
-  display: inline-block;
-}
+
 
 header, #TituloResto {
   font-family: 'DM Sans', sans-serif;
@@ -131,4 +128,14 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.container {
+  width: 100%;
+}
+
+.paragraph {
+  display: inline-block;
+  width: 50%;
 }
