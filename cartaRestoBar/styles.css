@@ -130,12 +130,48 @@ nav a:hover {
   object-fit: cover;
 }
 
-
+/* esto hay que cambiar para arreglar lo de las columnas*/
 .container {
   width: 100%;
+  list-style: none;
+  display: inline-table;
+  margin-left: 40px;
+  flex-direction: row;
+
 }
 
 .paragraph {
-  display: inline-block;
-  width: 50%;
+  display: flex;
+  margin: 5px;
+  padding: 0px;
+  justify-content: center;
 }
+
+.paragraph2 {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  transform: translateY(-440px);
+}
+
+.paragraph3 {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  transform: translateY(-320px);
+}
+
+.paragraph4 {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  transform: translateY(-300px);
+}
+
+.paragraph5 {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  transform: translateY(+40px);
+}
+/* esto hay que cambiar para arreglar lo de las columnas*/
