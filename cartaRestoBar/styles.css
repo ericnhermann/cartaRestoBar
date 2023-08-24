@@ -4,9 +4,9 @@ body {
   margin: 0;
   padding: 1;
 }
-
+/*prueba crear bloques */
 #bloc1, #bloc2 {
-    display: inline-block;
+  display: inline-block;
 }
 
 header, #TituloResto {
