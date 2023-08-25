@@ -72,11 +72,11 @@ nav a:hover {
   box-sizing: border-box;
   margin: 20px 0;
   position: relative;
-
+  display: table;
 }
 
 .menu-item-container {
-  display: inline-block;
+  display: table-cell;
   flex-wrap: wrap;
 
 }
