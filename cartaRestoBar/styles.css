@@ -31,6 +31,7 @@ nav a {
   color: #ead6d6;
   display: inline-block;
   transition: transform 0.2s ease-in-out;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -53,6 +54,7 @@ nav a:hover {
   margin: 0 50px;
   text-align: center;
   padding: 10px;
+  font-size: 10px;
 }
 
 
