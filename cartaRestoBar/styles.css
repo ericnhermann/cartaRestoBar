@@ -54,12 +54,16 @@ nav a:hover {
   margin: 0 50px;
   text-align: center;
   padding: 10px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
+.subtitulos-menu-item {
+  margin-left: 85px;
+
+}
 
 .menu-section {
-  margin-left: 60px;
+  margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
