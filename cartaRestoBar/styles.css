@@ -61,6 +61,10 @@ nav a:hover {
   margin-left: 85px;
 
 }
+.subtitulo-reserva{
+  text-align: center;
+}
+
 
 .menu-section {
   margin-left: 20px;
@@ -86,6 +90,31 @@ nav a:hover {
   flex-wrap: wrap;
 
 }
+
+.recuadro-form{
+  display: table-cell;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: content-box;
+  position: relative;
+  text-align: center;
+  background-size: contain;
+
+}
+
+.fondo-form{
+  background-color: antiquewhite;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid red;
+}
+
+.pos-form{
+  margin-left: 190px;
+}
+
 
 .menu-item .price {
   display: block;
