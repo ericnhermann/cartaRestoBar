@@ -62,7 +62,9 @@ nav a:hover {
 
 }
 .subtitulo-reserva{
-  text-align: center;
+  margin-right: 55%;
+  margin-left: 35%;
+
 }
 
 
@@ -106,13 +108,13 @@ nav a:hover {
   background-color: antiquewhite;
 }
 
-hr {
-  border: none;
-  border-top: 2px solid red;
-}
 
 .pos-form{
-  margin-left: 190px;
+  justify-content: center;
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 40%;
+
 }
 
 
