@@ -213,6 +213,13 @@
         <div class="recuadro-form">
           <form name="miformulario" method="get" action="procesar.php">
               <br><label for="nombrereserva">Nombre: </label>
+              
+              <p>Ingrese la fecha de la reserva</p>
+              <form action="/action_page.php">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+              </form>
+
               <input type="text" name="nombrereserva" id="nombrereserva">
               <form action="/action_page.php">
                 <label for="horario">Horario de reserva:</label>
@@ -223,6 +230,7 @@
                   <option value="21:30">21:30</option>
                 </select>
               </form>
+
               <br><label for="cantidad">Cantidad de comensales: </label>
               <input type="text" name="cantidad" id="cantidadcomensales">
               <input type="submit" value="Enviar">
