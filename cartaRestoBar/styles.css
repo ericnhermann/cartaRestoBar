@@ -18,6 +18,8 @@ header, #TituloResto {
   
   
 }
+/* sugerencia de la profe para el nav del header
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
   
 nav ul {
   list-style: none;
@@ -195,6 +197,7 @@ input[type=submit]:hover {
 }
 
 input[type=text], select {
+  /*modifica el tamanio de los espacios a completar*/
   width: 100%;
   padding: 12px 20px;
   
