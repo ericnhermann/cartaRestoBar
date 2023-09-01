@@ -215,7 +215,9 @@
             <fieldset>
               <legend>Por favor complete el formulario:</legend>
               <br><label for="nombrereserva">Nombre: </label>
-              <input type="text" name="nombrereserva" id="nombrereserva">
+              <input type="text" name="nombrereserva" id="nombrereserva" required>
+              <br><label for="mailreserva">Email: </label>
+              <input type="text" name="mailreserva" id="mailreserva" required>
               <form action="/action_page.php">
                 <label for="fecha">Fecha de la reserva:</label>
                 <input type="date" id="fecha" name="fecha">
@@ -231,7 +233,7 @@
                 </select>
               </form>
               <br><label for="cantidad">Cantidad de comensales: </label>
-              <input type="text" name="cantidad" id="cantidadcomensales">
+              <input type="text" name="cantidad" id="cantidadcomensales" min="1" max="15">
               <input type="submit" name="btn" value="Enviar">
             </fieldset>
           </form>
