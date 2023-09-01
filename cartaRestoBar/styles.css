@@ -179,4 +179,22 @@ nav a:hover {
   object-fit: cover;
 }
 
+#form {
+  border:1px solid #a20f0f;
+  width:450px;
+  margin:auto;
+}
+#form legend{
+  font-weight:bold;
+  font-size:12px;
+}
 
+#form input[type=text] {
+  border:1px solid #CCCCCC;
+}
+#form input.btn {
+  padding:3px;
+  color:#FFFFFF;
+  background-color:#d62323;
+  border:1px solid #d62323;
+}
