@@ -18,6 +18,13 @@ header, #TituloResto {
   
   
 }
+
+#NavContainer {
+  background-color: #f61717; /* Fondo de la barra de navegación */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 /* sugerencia de la profe para el nav del header
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
   
