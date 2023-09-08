@@ -72,9 +72,10 @@ nav a:hover {
   margin-left: 85px;
 
 }
+/*margin-right: 55%;
+  margin-left: 35%;*/
 .subtitulo-reserva{
-  margin-right: 55%;
-  margin-left: 35%;
+  text-align: center;
 
 }
 
