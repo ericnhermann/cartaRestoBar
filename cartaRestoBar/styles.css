@@ -213,3 +213,15 @@ input[type=text], select {
   border-radius: 40px;
   box-sizing: border-box;
 }
+
+#fecha {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+}
+#horario{
+  font-size: 16px;
+  text-align: center;
+}
