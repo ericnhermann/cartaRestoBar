@@ -210,55 +210,67 @@
       <div class="subtitulo-reserva">
         <h2><u>Reservas</u>:</h2>
       </div>
-      <div class= "pos-form">
-        <section id="formulario">
-        <div class="recuadro-form">
-          <form name="miformulario" method="get" action="procesar.php">
-            <fieldset>
-              <legend>Por favor complete el formulario:</legend>
-              <br><label for="nombrereserva">Nombre: </label>
-              <input type="text" name="nombrereserva" id="nombrereserva" required>
-              <br><label for="mailreserva">Email: </label>
-              <input type="text" name="mailreserva" id="mailreserva" required>
-              <form action="/action_page.php">
-                <label for="fecha">Fecha de la reserva:</label>
-                <input type="date" id="fecha" name="fecha">
-              </form>
-              
-              <form action="/action_page.php">
-                <label for="horario">Horario de reserva:</label>
-                <select id="horario" name="horario">
-                  <option value="20:00">20:00</option>
-                  <option value="20:30">20:30</option>
-                  <option value="21:00">21:00</option>
-                  <option value="21:30">21:30</option>
-                </select>
-              </form>
-              <br><label for="cantidad">Cantidad de comensales: </label>
-              <input type="number" name="cantidad" id="cantidadcomensales" min="1" max="15">
-              <input type="submit" name="btn" value="Enviar">
-            </fieldset>
-          </form>
-          
-        </div>
-      </div> 
+      <div class="pos-form">
+          <section id="formulario">
+              <div class="recuadro-form">
+                  <form name="miformulario" method="get">
+                      <!--action="procesar.php"-->
+                      <fieldset>
+                          <legend>Por favor complete el formulario:</legend>
+                          <br><label for="nombrereserva">Nombre: </label>
+                          <input type="text" name="nombrereserva" id="nombrereserva" required>
+                          <br><label for="mailreserva">Email: </label>
+                          <input type="text" name="mailreserva" id="mailreserva" required>
+                          <!--  <form action="/action_page.php">-->
+                          <label for="fecha">Fecha de la reserva:</label>
+                          <input type="date" id="fecha" name="fecha">
+                          <!--  </form> -->
+
+                          <p> </p>
+
+                          <!--      <form action="/action_page.php">-->
+                          <label for="horario">Horario de reserva:</label>
+                          <select id="horario" name="horario">
+                              <option value="20:00">20:00</option>
+                              <option value="20:30">20:30</option>
+                              <option value="21:00">21:00</option>
+                              <option value="21:30">21:30</option>
+                          </select>
+                          <!--</form>-->
+
+                          <br><label for="cantidad">Cantidad de comensales: </label>
+                          <input type="number" name="cantidad" id="cantidadcomensales" min="1" max="15">
+                          <!--   <input type="submit" name="button" value="Enviar"> SIN JS-->
+                          <!--     <button id="demo" onclick="displayEnvio()">Enviar</button> prueba salio mal -->
+
+
+                      </fieldset>
+                  </form>
+                  <button id="botonEnvio" onclick="displayEnvio()">Enviar</button>
+                  <p id="demo"></p>
+
+              </div>
+              </section>
+              <script>scriptCartaResto.js</script>
+          </div>
 </section>
-        </section>
 
-          <p>   </p>
 
-        <section id="footer">
-          <p>Compartí nuestros deliciosos platos con amigos &#x1F60A;&#x2728;</p>
-          <nav>
-            <ul class="social-buttons">
-              <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.x.com"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.github.com"><i class="fa fa-github"></i></a></li>
-            </ul>
-          </nav>
-          <p id="footer-text">Desarrollado por el grupo 6</p>
-        </section>
-      </body>
+              <p>   </p>
 
-  </html>
+            <section id="footer">
+              <p>Compartí nuestros deliciosos platos con amigos &#x1F60A;&#x2728;</p>
+              <nav>
+                <ul class="social-buttons">
+                  <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.x.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.github.com"><i class="fa fa-github"></i></a></li>
+                </ul>
+              </nav>
+              <p id="footer-text">Desarrollado por el grupo 6</p>
+            </section>
+            <script>scriptCarta.js</script>
+          </body>
+
+      </html>
