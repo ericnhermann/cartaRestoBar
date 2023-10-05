@@ -220,7 +220,8 @@
                           <br><label for="nombrereserva">Nombre: </label>
                           <input type="text" name="nombrereserva" id="nombrereserva" required>
                           <br><label for="mailreserva">Email: </label>
-                          <input type="text" name="mailreserva" id="mailreserva" required>
+                          <!--validar el email no f(x)a id=foo-->
+                          <input type="text" id="foo" name="mailreserva" id="mailreserva" required>
                           <!--  <form action="/action_page.php">-->
                           <label for="fecha">Fecha de la reserva:</label>
                           <input type="date" id="fecha" name="fecha">
@@ -252,6 +253,9 @@
               </div>
               </section>
               <script src="scriptCartaResto.js"></script>
+              <!--validar el email no f(x)a-->
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+              
 
           </div>
 </section>
