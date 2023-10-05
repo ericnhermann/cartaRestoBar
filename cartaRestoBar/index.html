@@ -214,7 +214,7 @@
           <section id="formulario">
               <div class="recuadro-form">
                   <form name="miformulario" method="get">
-                      <!--action="procesar.php"-->
+                      action="procesar.php"
                       <fieldset>
                           <legend>Por favor complete el formulario:</legend>
                           <br><label for="nombrereserva">Nombre: </label>
@@ -222,14 +222,14 @@
                           <br><label for="mailreserva">Email: </label>
                           <!--validar el email no f(x)a id=foo-->
                           <input type="text" id="foo" name="mailreserva" id="mailreserva" required>
-                          <!--  <form action="/action_page.php">-->
+                        <form action="/action_page.php">
                           <label for="fecha">Fecha de la reserva:</label>
                           <input type="date" id="fecha" name="fecha">
-                          <!--  </form> -->
+                        </form>
 
                           <p> </p>
 
-                          <!--      <form action="/action_page.php">-->
+                        <form action="/action_page.php">
                           <label for="horario">Horario de reserva:</label>
                           <select id="horario" name="horario">
                               <option value="20:00">20:00</option>
@@ -237,7 +237,7 @@
                               <option value="21:00">21:00</option>
                               <option value="21:30">21:30</option>
                           </select>
-                          <!--</form>-->
+                        </form>
 
                           <br><label for="cantidad">Cantidad de comensales: </label>
                           <input type="number" name="cantidad" id="cantidadcomensales" min="1" max="15">
@@ -254,7 +254,7 @@
               </section>
               <script src="scriptCartaResto.js"></script>
               <!--validar el email no f(x)a-->
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+              
               
 
           </div>
