@@ -8,8 +8,7 @@ function displayEnvio() {
 function mostrarInfoConCheckeo() {
     var email = document.getElementById("mailreserva").value;
     var nombreReserva = document.getElementById("nombrereserva").value;
-
-    // Expresión regular para validar el formato del correo electrónico
+    
     var regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     if(email == "" || nombreReserva == "" || !regex.test(email)) {
